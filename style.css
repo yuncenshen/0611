@@ -1,0 +1,464 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.93;
+    -webkit-box-shadow: 0px 11px 20px hsla(223,6%,45%,1.00);
+    box-shadow: 0px 11px 20px hsla(223,6%,45%,1.00);
+    z-index: 1000;
+}
+nav h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+ul li .material-icons a:link {
+    color: #FFFEFE;
+}
+ul li .material-icons {
+    color: hsla(0,0%,100%,1.00);
+}
+ul li .material-icons a:hover {
+    color: hsla(33,33%,67%,1.00);
+}
+
+
+
+nav a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover {
+    color: #C6AD8E;
+    text-decoration: none;
+}
+
+nav ul {
+  margin-right: 20px;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-image: url(assets/ming%20chouying%20xiyanyajitu%20cut.jpg);
+    background-size: contain;
+    padding-bottom: 0px;
+    background-attachment: scroll;
+    background-position: 0% center;
+}
+header h1 {
+    color: #000000;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    line-height: 95px;
+    text-shadow: 0px 0px 15px hsla(45,2%,39%,1.00);
+    margin-top: 134px;
+}
+header a:link {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:visited {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+.colT nav ul a:link {
+}
+
+
+header a:hover {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #550E57;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #F4F4F4;
+  text-decoration: none;
+}
+ul li .material-icons a:link {
+}
+ul li .material-icons a:hover {
+    color: hsla(128,12%,38%,1.00);
+    background-color: hsla(134,8%,40%,1.00);
+}
+
+
+article {
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+article h2 {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+.course {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0%;
+    background-origin: border-box;
+    background-attachment: fixed;
+    background-image: url(assets/0bgimage%20fengfushitu%20opacity.jpg);
+    margin-top: -63px;
+    padding-bottom: 80px;
+
+}
+.container1 {
+    display: flex;
+    width: 70%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px;
+	
+}
+.colT main #a01 {
+    background-color: hsla(340,2%,74%,1.00);
+}
+
+
+
+.container4 {
+    width: 100%;
+    background-color: hsla(340,2%,74%,1.00);
+    margin-top: -130px;
+    padding-bottom: 17px;
+    padding-top: 0px;
+}
+
+.steps .container4 p {
+    margin-left: 114px;
+    margin-right: 80px;
+    line-height: 33px;
+    font-size: large;
+    text-align: justify;
+    padding-bottom: 12px;
+    text-indent: 38px;
+    padding-top: 8px;
+}
+.container3 .right p {
+    font-size: large;
+    line-height: 33px;
+    text-align: left;
+    text-indent: 38px;
+    padding-top: 12px;
+    background-color: hsla(228,32%,55%,0.48);
+    color: hsla(29,30%,36%,1.00);
+    margin-left: -2px;
+    padding-left: 16px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+}
+
+
+
+.container1 .left {
+    flex: 1;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: -3px;
+    background-color: hsla(42,11%,76%,1.00);
+    border-radius: 14px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-left: -3px;
+    padding-bottom: auto;
+    padding-top: 62px;
+}
+.container1 .right {
+    flex: 2;
+    background-image: url(assets/0%20six%20fu%20middle%20site.jpg);
+    border-radius: 20px;
+    -webkit-transition: all 2000ms ease-in-out 0s;
+    -o-transition: all 2000ms ease-in-out 0s;
+    transition: all 2000ms ease-in-out 0s;
+    background-position: center center;
+    margin-left: 17px;
+    margin-bottom: -9px;
+    margin-top: -9px;
+    margin-right: -70px;
+    background-size: cover;
+}
+main #a02 h2 {
+    text-shadow: 0px 0px 14px hsla(33,33%,67%,1.00);
+}
+main #a02 p {
+    text-shadow: 0px 0px 16px hsla(33,33%,67%,1.00);
+}
+
+
+article p {
+  text-align: center;
+  font-size: 18px;
+}
+.colT main #a03 {
+    background-color: hsla(33,33%,67%,0.69);
+}
+
+.container2 {
+  display: flex;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 350px;
+  margin-top: 20px;
+}
+.container2 .col01 {
+    flex: 1;
+    background-image: url(assets/3.01%20six%20fu%20outline.jpg);
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+.container2 .col02 {
+    flex: 1;
+    background-image: url(assets/3.02%20six%20fu%20xian%20site.jpg);
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: center center;
+    align-items: flex-end;
+    display: flex;
+    -webkit-transition: all 2300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+.container2 .col03 {
+    flex: 1;
+    background-image: url(assets/3.03%20six%20fu%20chose%20three.jpg);
+    background-position: center center;
+    margin: 5px;
+    border-radius: 10px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+.container2 .colT {
+    background-color: #172549;
+    opacity: 0;
+    color: #B18B64;
+    height: 340px;
+    line-height: 340px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.img {
+  margin: 5px;
+  -webkit-transition: all 1000ms ease-in-out 0s;
+  -o-transition: all 1000ms ease-in-out 0s;
+  transition: all 1000ms ease-in-out 0s;
+}
+.img:hover {
+    transform: scale(1.05);
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #454545;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+    color: #E6E6E6;
+}
+nav a {
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+header a {
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.col01:hover .colT {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.col02:hover .colT {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.col03:hover .colT {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.container2 .col01:hover {
+  transform: translateY(-5px);
+}
+.container2 .col02:hover {
+  transform: translateY(-5px);
+}
+.container2 .col03:hover {
+  transform: translateY(-5px);
+}
+.container1 .right:hover {
+    -webkit-box-shadow: 1px 1px 5px 2px #7D7D7D;
+    box-shadow: 1px 1px 5px 2px #7D7D7D;
+    background-repeat: no-repeat;
+	width: 180% auto;
+	height: 180% auto;
+}
+
+
+
+.container1 .left.wow.slideInDown h4 {
+    color: hsla(0,0%,0%,1.00);
+    font-size: 27px;
+    text-align: center;
+    margin-top: 41px;
+}
+.steps .container4 h2 {
+    padding-top: 0px;
+}
+.steps .container4 .subtitle {
+    text-align: center;
+    padding-bottom: 9px;
+    font-variant: small-caps;
+    background-color: hsla(30,19%,94%,1.00);
+    padding-top: 8px;
+}
+#a03 .container3 .right {
+    flex: 1;
+    margin-top: 65px;
+    margin-right: 55px;
+    margin-left: 13px;
+    padding-left: 18px;
+}
+#a03 .container3 .left.img.wow.fadeIn {
+    flex: 2;
+    padding-right: 0px;
+    margin-right: -108px;
+}
+main #a03 h2 {
+    margin-top: 0px;
+}
+
+.colT main .container5 {
+    background-image: url(assets/1hangzhouxuefutu.jpg);
+    background-position: 0% center;
+    background-size: cover;
+    background-color: hsla(0,0%,95%,0.48);
+    opacity: 1;
+    height: 300px;
+    width: 100%;
+    text-shadow: 0px 0px 61px hsla(0,9%,90%,1.00);
+    padding-top: 120px;
+}
+main .container5 p {
+    margin-top: -2px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+    text-indent: 40px;
+    line-height: 40px;
+    font-size: large;
+    padding-top: 0px;
+}
+
+.colT main .line {
+    width: 100%;
+    height: 20px;
+    background-color: hsla(140,3%,19%,1.00);
+    margin-top: -62px;
+}
+.colT footer .container6 {
+    display: flex;
+}
+footer .container6 .left {
+    flex: 1;
+    text-align: left;
+}
+footer .container6 .rightt {
+    flex: 1;
+    text-align: justify;
+}
+.colT footer .container6 {
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 27px;
+    padding-bottom: 30px;
+
+}
+footer .container6 .left {
+    margin-right: 30px;
+}
+footer .container6 .rightt {
+    margin-left: 30px;
+}

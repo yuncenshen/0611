@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>明代江南藏書家GIS統計</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script> 
+<script src="js/parallaxie.min.js"></script> 
+<script src="js/wow.min.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style type="text/css">
+container1.right {
+    -webkit-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}
+container1.right :hover {
+    width: 20cm;
+    height: 18cm;
+}
+</style>
+</head>
+
+<body class="colT">
+<nav>
+  <h3 class="right"><a href="#">明代江南藏書家GIS統計</a></h3>
+  <ul>
+    <li><a href="#a01">動機方法</a></li>
+    <li><a href="#a02">六府地圖</a></li>
+    <li><a href="#a03">家世統計</a></li>
+    <li><a href="#a04">地理對照</a></li>
+	<li><a href="#a05">結論展望</a></li>
+	
+  </ul>
+</nav>
+	
+<header>
+  <h1 class="wow zoomIn">明代江南藏書家分佈<br>暨<br>
+    常松杭三府家世統計</h1>
+</header>
+	
+<main>
+  <article id="a01">
+    <h2 class="wow fadeInUp">製作動機與背景</h2>
+    <div class="container1">
+      <div class="left wow slideInLeft">
+		  <h4>動機</h4>
+		  <ul>
+		  <li>1、地理分佈之特殊性</li>
+		  <li>2、藏書家的經濟來源</li>
+		  <li>3、文本統計分析應用</li>
+		  </ul>
+		 <br>
+		  <h4>背景</h4> 
+		  <ol><li>1、明代藏書文化風氣盛行</li><li>2、江南具經濟重鎮之優勢</li><li>3、出版與印刷技術的提升</li></ol>
+	  </div>
+		
+      <!視差><div class="right wow slideInRight"></div>
+    </div>
+	  <br> <br> <br> <br>
+	  <hr>
+  </article>
+	
+  <article class="steps">
+    <div class="container4">
+      <h2 class="wow zoomIn">&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;方法及步驟</h2>
+	  <p class="subtitle wow fadeInUp">圖資輸入及文獻彙</p>		
+<p class="wow fadeInUp">古今地圖套疊，疊合中國大陸江蘇浙江兩省之明代與現代地圖，地域對照。黃色實心填滿為明代古地圖，藍色半透明線條為現代省、縣市邊界。</p>
+<p class="wow fadeInUp">文獻引用陳冠至：《明代的蘇州藏書——藏書家的藏書活動與藏書生活》、《明代的江南藏書——五府藏書家的藏書活動與藏書生活》，兩本書之附錄表格，統計藏書家所在地與身世背景，探討明代江南藏書家身份形成原因。</p>
+<p class="subtitle wow fadeInUp">六府縣定位及藏書家統計</p>
+<p class="wow fadeInUp">並搭配中央研究院歷史語言研究所及計算中心之古地名經緯度查系統，對照江南六府：常州府、松江府、嘉興府、蘇州府、杭州府、湖州府之古今地理位置，彙整為csv檔案，以利匯入QGIS，於地圖上定位。同時統計各府縣藏書家數量，並彙整為csv檔案。</p>
+<p class="subtitle wow fadeInUp">杭州府、松江府、常州府藏書家家世統計</p>
+<p class="wow fadeInUp">六府當中，擇出屬北近長江之常州府、屬南近丘陵區杭州府，屬東近海之松江府，另增加藏書家之各類身份統計彙整為csv檔案，以利後續匯入QGIS。利用QGIS中長條圖統計工具，將身份統計數據視覺化，探討地理位置對藏書家身份之影響。</p>		
+      </div>	  
+  </article>
+	
+  <article class="course" id="a02">
+    <h2 class="wow zoomIn">QGIS六府地圖</h2>
+    <p class="wow fadeInUp">在古今套疊地圖上定位出六府位置，並擇常州、松江、杭州三府，統計藏書家家世。</p>
+    <div class="container2">
+      <div class="col01 wow bounceIn" data-wow-delay="0.3s">
+        <div class="colT">六府概略圖</div>
+      </div>
+      <div class="col02 wow bounceIn">
+        <div class="colT">六府及縣位置圖</div>
+      </div>
+      <div class="col03 wow bounceIn" data-wow-delay="0.5s">
+        <div class="colT">擇常州、松江、杭州三府，統計藏書家家世</div>
+      </div>
+    </div>
+  </article>
+	
+  <article id="a03">
+    <h2 class="wow zoomIn">三府世家出身統計說明</h2> 
+	  <p class="wow fadeInUp">常州、松江、杭州三府藏書家家世統計說明</p>
+    <div class="container3">	  
+	  <div class="right wow slideInLeft"><p>家世不詳者佔比最多，另家世有三大宗，一為具富民，即家中資產雄厚者；二為仕宦背景，父兄為官或藏書家本身為官者；三為地主，家有田產之富人。</p><p>較為特殊的家世則有：醫者、屠戶、塾師。</p></div>
+      <div class="left img wow fadeIn"><img src="assets/4for1  3fu background.jpg" width="700" height="481" alt=""/></div>	
+    </div>
+  </article>
+	
+  <article id="a04">
+   <h2 class="wow zoomIn">google Map地理環境對照</h2>
+	  <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1HqXPqiHlPTyhyY4udRxjgFPQdcoRP6Hi&ehbc=2E312F" width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen="" class="wow pulse"></iframe> 
+  </article>
+  <div class="line"></div>
+<article class="container5" id="a05">
+	  <h2 class="wow zoomIn">統計結論與未來展望</h2>
+	  <p class="wow fadeInUp">地理空間的特殊性：太湖東西兩邊藏書家明顯有別，太湖以東數量較多，且六府多屬於地勢低平處。</p>
+      <p class="wow fadeInUp">藏書家之身份多元：以富民、地主、官宦世家為最，並有屠戶、塾師、業醫。透過學者前輩的研究，將資料彙整為統計數據，以圖像呈現，嘗試增加解讀形式，期待能有助於探究明代藏書文化。</p>
+  </article>
+</main>
+	
+<footer>
+	參考資料及銘謝指導
+<div class="container6">
+  <div class="left"><p>參考資料：<br>
+https://newarchive.ihp.sinica.edu.tw/hplname/lonlats/searchlon/advance
+中國歷史地名查詢系統。
+<br>
+https://www.gadm.org/download_country.html<br>
+GADM data全球國家地圖下載。
+<br>
+https://gis.rchss.sinica.edu.tw/qgis/?p=3640<br>
+Sinica：QGIS及Open Geodata資源網。
+<br>
+底圖引用：<br>
+https://theme.npm.edu.tw/opendata/<br>
+故宮Open Data專區：明仇英西園雅集圖軸。<br>
+
+書影
+明馮夢禎：快雪堂集快雪堂集卷六十四，1997年臺南莊嚴文化事業有限公司景印本。<br>
+	  
+https://digitalatlas.asdc.sinica.edu.tw/index.jsp<br>
+數位方輿：中央研究院數位文化中心、臺灣史研究所：杭州省城、海塘、府學圖 清乾隆49年（1784）
+<br>
+
+</p>
+</div>
+  <div class="rightt"><p>引用文獻—專書：<br>
+陳冠至：《明代的蘇州藏書——藏書家的藏書活動與藏書生活》，臺北：樂學書局，2002年。<br>
+陳冠至：《明代的江南藏書——五府藏書家的藏書活動與藏書生活》，臺北：花木蘭文化，2006年。
+<br><br><br><br><br><br>
+銘謝指導及協助<br>
+中興大學數位人文與資訊應用學分學程網頁設計鄭琨鴻老師<br>
+中興大學數位人文與資訊應用學分學程數位人文GIS應用侯嘉星老師<br>
+中興大學數位人文與資訊應用學分學程網頁設計林沂瑩助教</p></div>
+</div>
+ </footer>
+	
+<script>
+$('header').parallaxie({speed: 0.5, offset: -50,});
+</script> 
+<script>
+$('.course').parallaxie({speed: 0.7, offset: -100,});
+</script>
+<script>
+$('.container5').parallaxie({speed: 0.7, offset: -100,});
+</script>
+<script>
+	new WOW().init();
+</script>
+</body>
+</html>
